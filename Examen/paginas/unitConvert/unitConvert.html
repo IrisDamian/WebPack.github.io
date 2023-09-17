@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Conversor de Temperatura</title>
+</head>
+
+<body>
+  <a href="/index.html">
+    <h2>Inicio</h2>
+  </a>
+  <center>
+    <h1>Conversor de Temperatura</h1>
+
+    <label for="temperatura">Temperatura:</label>
+    <input type="number" id="temperatura" />
+
+    <label for="unidadEntrada">Unidad de Entrada:</label>
+    <select id="unidadEntrada">
+      <option value="celsius">Celsius</option>
+      <option value="fahrenheit">Fahrenheit</option>
+    </select>
+
+    <label for="unidadSalida">Unidad de Salida:</label>
+    <select id="unidadSalida">
+      <option value="celsius">Celsius</option>
+      <option value="fahrenheit">Fahrenheit</option>
+    </select>
+
+    <button id="convertir">Convertir</button>
+
+    <p>Resultado: <span id="resultado"></span></p>
+
+    <script type="module" src="/wp/src/index.js"></script>
+
+  </center>
+
+</body>
+
+<style>
+  body {
+    background-color: rgb(253, 253, 255);
+    background-image: url(/imagenes/convertir\ unidades\ celcius.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: block;
+    align-items: center;
+
+  }
+
+  h1 {
+    color: rgb(209, 12, 160);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+  }
+
+  h2 {
+
+    font-size: 30px;
+    left: auto;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700px;
+    border-radius: 15px;
+    background-color: rgb(95, 25, 83);
+    padding: 20px;
+    text-decoration: none;
+    color: beige;
+
+    text-align: center;
+  }
+</style>
+
+</html>
